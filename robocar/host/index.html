@@ -56,23 +56,23 @@
           <div class="container">
               <div class="row">
                   <div class="col">
+                    <button class='btn btn-link' onclick="$.get('/motors/stop')">
+                        <img src='static/open-iconic-master/png/moon-8x.png' alt='Stop'>
+                    </button>
+                  </div>
+                </div>
+              <div class="row">
+                  <div class="col">
                       <button class='btn btn-link' onclick="$.get('/motors/forward')">
                           <img src='static/open-iconic-master/png/arrow-circle-top-8x.png' alt='Forward'>
                       </button>
                   </div>
               </div>
               <div class="row">
-                  <div class="col">
+                  <div class="col col-xs-12">
                       <button class='btn btn-link' onclick="$.get('/motors/left')">
                           <img src='static/open-iconic-master/png/arrow-circle-left-8x.png' alt='Left'>
                       </button>
-                  </div>
-                  <div class="col">
-                      <button class='btn btn-link' onclick="$.get('/motors/stop')">
-                          <img src='static/open-iconic-master/png/moon-8x.png' alt='Stop'>
-                      </button>
-                  </div>
-                  <div class="col">
                       <button class='btn btn-link' onclick="$.get('/motors/right')">
                           <img src='static/open-iconic-master/png/arrow-circle-right-8x.png' alt='Right'>
                       </button>
@@ -80,7 +80,7 @@
               </div>
               <div class="row">
                   <div class="col">
-                      <button class='btn btn-link' onclick="$('/motors/backward')">
+                      <button class='btn btn-link' onclick="$.get('/motors/backward')">
                           <img src='static/open-iconic-master/png/arrow-circle-bottom-8x.png' alt='Backward'>
                       </button>
                   </div>

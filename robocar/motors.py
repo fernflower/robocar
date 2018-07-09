@@ -17,8 +17,8 @@ import machine
 # D3 - motor A direction
 # D2 - motor B speed (pwm)
 # D4 - motor B direction
-MOTOR_L = {'direction': 0, 'speed': 5}
-MOTOR_R = {'direction': 2, 'speed': 4}
+MOTOR_R = {'direction': 0, 'speed': 5}
+MOTOR_L = {'direction': 2, 'speed': 4}
 
 
 class Motor(object):

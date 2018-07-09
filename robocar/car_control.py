@@ -17,10 +17,10 @@ class CarControl(object):
         self.left_motors.stop()
         self.right_motors.stop()
 
-    def left(self):
+    def right(self):
         self.left_motors.forward()
         self.right_motors.stop()
 
-    def right(self):
+    def left(self):
         self.left_motors.stop()
         self.right_motors.forward()
